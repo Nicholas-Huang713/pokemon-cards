@@ -20,5 +20,5 @@ jobs:
         instance-ids: ${{ secrets.INSTANCE_ID  }}
         comment: Deploy the master branch 
         working-directory: /home/ubuntu/pokemon-cards
-          command: /bin/sh ./deploy.sh
-			 
+        command: /bin/sh ./deploy.sh
+	```		 
