@@ -19,7 +19,7 @@ jobs:
         command: /bin/sh deploy.sh
   deploy:
     runs-on: ubuntu-latest
-    needs: [continuous-integration]
+    needs: start
     if: github.ref == 'refs/heads/master'
     steps:
      # Step 1
